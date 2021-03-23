@@ -1,0 +1,41 @@
+.top_menu{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    position:relative;
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    top: 0;
+    z-index:10;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(1, 184, 108);
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+
+.dop_service{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(1, 184, 108);
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    position:absolute;
+    right: 200px;
+}

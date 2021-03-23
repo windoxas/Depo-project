@@ -1,0 +1,16 @@
+.group_list{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid #c7c7c7;
+  width: 95%;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+
+.group_list div{
+  margin-left: 10px;
+  font-weight: 900;
+}
+
