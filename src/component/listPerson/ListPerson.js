@@ -6,9 +6,10 @@ import './ListPerson.css'
 
 function ListPerson(){
     
-const [selectOne, setSelectOne] = React.useState('')
+const [selectOne, setSelectOne] = React.useState(localStorage.getItem('test'))
 const [selectTwo, setSelectTwo] = React.useState('')
 const [selectThree, setSelectThree] = React.useState('')
+localStorage.setItem('test', selectOne)
 
 function selectOneOption(e){
     return setSelectOne(e.target.value)
@@ -20,9 +21,8 @@ function selectTwoOption(e){
 }
 function selectThreeOption(e){
     return setSelectThree(e.target.value)
-       
 }
-
+            
 
 
     return(
@@ -32,7 +32,7 @@ function selectThreeOption(e){
                     <div className="train_drive_person">
                         <div>
                             <h3>Машинист</h3>
-                            <h2>{selectOne}</h2>
+                            <h2>{localStorage.getItem('test')}</h2>
                             <select onChange={(e) => selectOneOption(e)}  >
                                 <option >Выбирите машинист</option>
                                 <option>Турдиев Жахон</option>

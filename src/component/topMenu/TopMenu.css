@@ -38,4 +38,5 @@ nav ul li{
     outline:none;
     position:absolute;
     right: 200px;
+    display:none;
 }
