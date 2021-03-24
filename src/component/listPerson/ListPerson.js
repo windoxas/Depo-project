@@ -1,15 +1,14 @@
 import React from 'react'
 import './ListPerson.css'
+import PersonOne from './list_compenents/PersonOne'
+import PersonTwo from './list_compenents/PersonTwo'
+import PersonThree from './list_compenents/PersonThree'
+import DateTime from './list_compenents/Date_time'
 
 
 
 
 function ListPerson(){
-    
-
-
-        
-
 
     return(
         <div className="list_person">
@@ -17,19 +16,12 @@ function ListPerson(){
                     <h1>0208</h1>
                     <div className="train_drive_person">
                        
-                        
+                        <PersonOne/>
+                        <PersonTwo/>
+                        <PersonThree/>
                         
                     </div>
-                    <div className="train_time">
-                        <div className="train_start">
-                            <input   type="date"/>
-                            <input  type="time"/>
-                        </div>
-                        <div className="train_start">
-                            <input type="date"/>
-                            <input type="time"/>
-                        </div>
-                    </div>
+                        <DateTime/>
                 </div>
         </div>
         )

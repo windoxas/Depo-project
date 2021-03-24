@@ -2,7 +2,8 @@ import React from 'react'
 
 
 function PersonTwo(){
-    const [selectTwo, setSelectTwo] = React.useState('')
+    const [selectTwo, setSelectTwo] = React.useState(localStorage.getItem('selectTwo'))
+    localStorage.setItem('selectTwo', selectTwo)
     function selectTwoOption(e){
         return setSelectTwo(e.target.value)
            
@@ -12,9 +13,9 @@ function PersonTwo(){
         <div>
            <div>
                 <h3>Пом/Машинист</h3>
-                <h2>{selectTwo}</h2>
+                <h2>{localStorage.getItem('selectTwo')}</h2>
                 <select onChange={(e) => selectTwoOption(e)} >
-                    <option disabled>Выбирите Пом/машинист</option>
+                    <option >Выбирите Пом/машинист</option>
                     <option>Турдуиев Жахон</option>
                     <option>Курдаев Санжар</option>
                     <option>Сидиров Фозил</option>
