@@ -21,11 +21,6 @@ localStorage.setItem('getTime', time)
         return setTime(e.target.value)
 
     }
-
-
-
-
-
     return(
             <div className="train_time">
                 <div className="train_start">

@@ -1,3 +1,5 @@
+# Хороший библотека работа с дата и времями вот некотрие пример https://ruseller.com/lessons.php?rub=32&id=2043
+momentJs (https://ruseller.com/lessons.php?rub=32&id=2043)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
