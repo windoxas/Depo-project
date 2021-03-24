@@ -13,7 +13,7 @@ function ListPerson(){
     return(
         <div className="list_person">
                 <div className="train">
-                    <h1>0208</h1>
+                    <h1 className="train_number">0208</h1>
                     <div className="train_drive_person">
                        
                         <PersonOne/>
