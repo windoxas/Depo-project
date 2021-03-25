@@ -23,6 +23,39 @@ function ListPerson(){
                     </div>
                         <DateTime/>
                 </div>
+                <div className="train">
+                    <h1 className="train_number">0209</h1>
+                    <div className="train_drive_person">
+                       
+                        <PersonOne/>
+                        <PersonTwo/>
+                        <PersonThree/>
+                        
+                    </div>
+                        <DateTime/>
+                </div>
+                <div className="train">
+                    <h1 className="train_number">0210</h1>
+                    <div className="train_drive_person">
+                       
+                        <PersonOne/>
+                        <PersonTwo/>
+                        <PersonThree/>
+                        
+                    </div>
+                        <DateTime/>
+                </div>
+                <div className="train">
+                    <h1 className="train_number">0211</h1>
+                    <div className="train_drive_person">
+                       
+                        <PersonOne/>
+                        <PersonTwo/>
+                        <PersonThree/>
+                        
+                    </div>
+                        <DateTime/>
+                </div>
         </div>
         )
 }
