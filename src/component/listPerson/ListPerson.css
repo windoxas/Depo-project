@@ -3,7 +3,7 @@
     padding: 10px; 
     position: relative;
     top: 100px;
-    margin: 10px auto;
+    margin: 20px auto;
     box-shadow: 0px 1px 10px 1px rgb(88, 88, 88);
     border-radius: 5px;
 }
@@ -45,10 +45,14 @@
 .train_drive_person div h3{
     width: 200px;
     padding: 10px;
-    background-color: rgb(82, 194, 30);
+    background-color: rgb(0, 150, 0);
     color:#fff;
     text-align: center;
+    border-radius: 10px;
+    
 }
+
+
 
 .train_drive_person div select{
     width: 200px;
@@ -59,9 +63,18 @@
     font-size: 16px;
     color:#fff;
     border-radius: 3px;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
 }
 
 
+.train_drive_person div select:hover{
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+    transform: scale(1.2);
+}
+.train_drive_person div select option{
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+    transform: scale(1.2);
+}
 
 .train_time{
     width: 800px;
@@ -75,12 +88,60 @@
 
 .train_time input{
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bolder;
     border:2px solid rgb(0, 0, 0);
     margin-left: 5px;
+    color: rgb(0, 0, 0);
 }
 
 .train_number{
     color: #fff;
+}
+
+
+
+.start_work{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    width: 250px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: rgb(0, 60, 170);
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.start_work::after{
+    content: url(./list_compenents//img_png_file/right-arrow.png);
+
+    margin-left: 25px;
+}
+
+.end_work{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    width: 250px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: rgb(0, 60, 170);
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.end_work::before{
+    content: url(./list_compenents//img_png_file/left-arrow.png);
+
+    margin-right: 20px;
 }

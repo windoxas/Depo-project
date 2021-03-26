@@ -2,43 +2,53 @@
     "menu":[
         {
             "id": 1,
-            "name": "КОЛОНА 1"
+            "name": "КОЛОНА 1",
+            "url":"/columnOne"
         },
         {
             "id": 2,
-            "name": "КОЛОНА 2"
+            "name": "КОЛОНА 2",
+            "url":"/columnTwo"
         },
         {
             "id": 3,
-            "name": "КОЛОНА 3"
+            "name": "КОЛОНА 3",
+            "url":"/columnThree"
         },
         {
             "id": 4,
-            "name": "КОЛОНА 4"
+            "name": "КОЛОНА 4",
+            "url":"/columnFour"
         },
         {
             "id": 5,
-            "name": "КОЛОНА 5"
+            "name": "КОЛОНА 5",
+            "url":"/columnFive"
         },
         {
             "id": 6,
-            "name": "КОЛОНА 6"
+            "name": "КОЛОНА 6",
+            "url":"/columnSix"
         },
         {
             "id": 7,
-            "name": "КОЛОНА 7"
+            "name": "КОЛОНА 7",
+            "url":"/columnSeven"
         },
         {
             "id": 8,
-            "name": "КОЛОНА 8"
+            "name": "КОЛОНА 8",
+            "url":"/columnEight"
         },
         {
             "id": 9,
-            "name": "КОЛОНА 9"
+            "name": "КОЛОНА 9",
+            "url":"/columnNine"
         },
         {
             "id": 10,
-            "name": "КОЛОНА 10"
+            "name": "КОЛОНА 10",
+            "url":"/columnTen"
         }
     ],
 

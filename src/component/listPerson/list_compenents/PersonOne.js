@@ -13,7 +13,7 @@ function PersonOne(){
     return(
         <div>
             <div>
-              <h3>Машинист</h3>
+              <h3 style={{background:"rgb(6, 3, 182)"}}>Машинист</h3>
                <h2>{localStorage.getItem('selectOne')}</h2>
                 <select onChange={(e) => selectOneOption(e)}  >
                     <option >Выбирите машинист</option>
