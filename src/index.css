@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: fixed;
+  background-image: url(./component/listPerson/list_compenents/img_png_file/train.jpeg);
+  background-size: cover;
+
 }
 
 code {

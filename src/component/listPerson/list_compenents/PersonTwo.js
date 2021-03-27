@@ -16,9 +16,9 @@ function PersonTwo(){
                 <h2>{localStorage.getItem('selectTwo')}</h2>
                 <select onChange={(e) => selectTwoOption(e)} >
                     <option >Выбирите Пом/машинист</option>
-                    <option>Турдуиев Жахон</option>
-                    <option>Курдаев Санжар</option>
-                    <option>Сидиров Фозил</option>
+                    <option>Шаманов Фарух</option>
+                    <option>Хидиров Рауф</option>
+
                 </select>
             </div>
         </div>

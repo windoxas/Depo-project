@@ -8,7 +8,7 @@ function DateTime(){
     const [endData, setEndData] = React.useState(localStorage.getItem('endDate'))
     const [endTime, setEndTime] = React.useState(localStorage.getItem('endTime'))
 
-
+console.log("time", parseInt(time) - parseInt(endTime) );
 localStorage.setItem('getDate', date)
     function getData(){
         const NowDate = moment().format('YYYY-MM-DD')
@@ -25,8 +25,9 @@ localStorage.setItem('getTime', time)
 localStorage.setItem('endTime', endTime)
 function endTimes(){
         let minute = parseInt(time.slice(3,5))
+
         let getTimeSendEndTime =  moment().hours(parseInt(time)).minutes(minute).add(12, 'hours').format('HH:mm')
-        
+        console.log(getTimeSendEndTime);
         return  setEndTime(getTimeSendEndTime)
     }
 

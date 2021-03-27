@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function PersonOne(){
+function PersonOne(props){
     const [selectOne, setSelectOne] = React.useState(localStorage.getItem('selectOne'))
     localStorage.setItem('selectOne', selectOne)
 
@@ -17,9 +17,9 @@ function PersonOne(){
                <h2>{localStorage.getItem('selectOne')}</h2>
                 <select onChange={(e) => selectOneOption(e)}  >
                     <option >Выбирите машинист</option>
-                    <option>Турдиев Жахон</option>
-                    <option>Мардаев Санжар</option>
-                    <option>Сидиров Фозил</option>
+                    <option>{props.mashFirst}</option>
+                    <option>{props.mashSecond}</option>
+
                 </select>
             </div>
         </div>

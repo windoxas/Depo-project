@@ -3,52 +3,52 @@
         {
             "id": 1,
             "name": "КОЛОНА 1",
-            "url":"/columnOne"
+            "url":"columnOne"
         },
         {
             "id": 2,
             "name": "КОЛОНА 2",
-            "url":"/columnTwo"
+            "url":"columnTwo"
         },
         {
             "id": 3,
             "name": "КОЛОНА 3",
-            "url":"/columnThree"
+            "url":"columnThree"
         },
         {
             "id": 4,
             "name": "КОЛОНА 4",
-            "url":"/columnFour"
+            "url":"columnFour"
         },
         {
             "id": 5,
             "name": "КОЛОНА 5",
-            "url":"/columnFive"
+            "url":"columnFive"
         },
         {
             "id": 6,
             "name": "КОЛОНА 6",
-            "url":"/columnSix"
+            "url":"columnSix"
         },
         {
             "id": 7,
             "name": "КОЛОНА 7",
-            "url":"/columnSeven"
+            "url":"columnSeven"
         },
         {
             "id": 8,
             "name": "КОЛОНА 8",
-            "url":"/columnEight"
+            "url":"columnEight"
         },
         {
             "id": 9,
             "name": "КОЛОНА 9",
-            "url":"/columnNine"
+            "url":"columnNine"
         },
         {
             "id": 10,
             "name": "КОЛОНА 10",
-            "url":"/columnTen"
+            "url":"columnTen"
         }
     ],
 
