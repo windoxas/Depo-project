@@ -15,3 +15,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.team_change{
+  width: 800px;
+  display: flex;
+ border-top: 3px solid rgb(245, 139, 0);
+ border-bottom: 3px solid rgb(245, 0, 225);
+  justify-content: space-around;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.true_work p{
+  background-color: rgb(14, 211, 14);
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.false_work p{
+  background-color: rgb(211, 14, 14);
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+.true_work p {
+  width: 300px;
+  display: flex;
+  justify-content: space-between; 
+}
+.false_work p {
+  width: 300px;
+  display: flex;
+  justify-content: space-between; 
+}
