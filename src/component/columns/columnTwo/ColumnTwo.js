@@ -1,18 +1,53 @@
 import React from 'react'
-import Train3173 from './train_number/3173/train3173'
-import Train1061 from './train_number/1061/Train1061'
-import Train1074 from './train_number/1074/train1074'
-import Train1265 from './train_number/1265/train1265'
+import Trains from '../../../Trains'
 
-function ColumnsTwo(){
+function TrainsTwo(){
     return(
-        <div>
-            <Train3173/>
-            <Train1061/>
-            <Train1074/>
-            <Train1265/>
-        </div>
+            <>
+                <Trains 
+                    Instructions="Темиров Х"
+                    TrainNumber="3173" 
+                    nameHightPerson={["Сапаров С", "Шобиров А", "Ишонкулов А"]}
+                    namePerson = {['Уралов Д', "Джураев Шав", "Гиёсиддинов Ж"]}
+                    trainModel="2ТЭ10М-3173"
+                
+                />
+                <Trains 
+                    Instructions="Темиров Х"
+                    TrainNumber="1061" 
+                    nameHightPerson={["Хидиров Э", "Курбонов Х", "Мирзоев Али"]}
+                    namePerson = {['Баратов Ф', "Хамидов Х","Эргашев Х"]}
+                    trainModel="2ТЭ10М-1061"
+                
+                />
+                <Trains 
+                    Instructions="Темиров Х"
+                    TrainNumber="1074" 
+                    nameHightPerson={["Мамаев Ш", "Абдурахмонов Ш"]}
+                    namePerson = {['Аннаев Х', "Курбонов Х"]}
+                    trainModel="2ТЭ10М-1074"
+                
+                />
+                <Trains 
+                    Instructions="Темиров Х"
+                    TrainNumber="1265" 
+                    nameHightPerson={["Юсупов Б", "Рузиев У", "Уралов А"]}
+                    namePerson = {['Файзуллаев Б', "Казакбоев Х","Уроков Ф"]}
+                    trainModel="2ТЭ10М-1265"
+                
+                />
+            </>
     )
 }
 
-export default ColumnsTwo
+
+function ColumnTwo(){
+    return(
+        <>
+            <TrainsTwo/>
+        </>
+       
+    )
+}
+
+export default ColumnTwo
